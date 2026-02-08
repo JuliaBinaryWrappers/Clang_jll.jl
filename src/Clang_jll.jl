@@ -6,5 +6,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("Clang")
-JLLWrappers.@generate_main_file("Clang", UUID("0ee61d77-7f21-5576-8119-9fcc46b10100"))
+JLLWrappers.@generate_main_file("Clang", Base.UUID("0ee61d77-7f21-5576-8119-9fcc46b10100"))
 end  # module Clang_jll
